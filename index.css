@@ -1,0 +1,87 @@
+body {
+    background: linear-gradient(to right, #ffcccb, #b3c1ff);
+    /* Background gradient */
+    color: #333;
+    /* Text color */
+    font-family: 'Arial', sans-serif;
+    /* Font family */
+}
+
+header {
+    background: linear-gradient(to right, #ff6dbd, #fc4c49);
+    /* Header background color */
+    color: white;
+    /* Header text color */
+    padding: 10px;
+}
+
+h1 {
+    margin: 50;
+    /* Remove default margin for h1 */
+}
+
+h3 {
+    margin: 50;
+    /* Remove default margin for h3 */
+}
+
+main {
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td,
+th,
+th,
+th {
+    border: 1px solid #b6b6b6;
+    /* Table border colo  hihhi */
+    padding: 8px;
+    text-align: left;
+}
+
+
+td {
+
+    background-color: #b6b6b6;
+
+}
+
+
+
+tr:nth-child(even) {
+    background-color: #b6b6b6;/
+}
+
+a.btn {
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    /* Primary button color */
+}
+
+.btn-secondary {
+    background-color: #007bff;
+    /* Secondary button color */
+}
+
+footer {
+    background: #333;
+    /* Footer background color */
+    color: white;
+    /* Footer text color */
+    padding: 10px;
+    text-align: center;
+}
