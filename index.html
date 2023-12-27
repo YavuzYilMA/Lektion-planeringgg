@@ -2,13 +2,9 @@
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ana Sayfa</title>
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         body {
             background: #b3c1ff;
@@ -21,7 +17,7 @@
 
         .container {
             max-width: 1200px;
-            margin:  auto;
+            margin: auto;
             padding: 0 20px;
         }
 
@@ -38,9 +34,49 @@
             padding: 20px 0;
         }
 
+        .kutu {
+            float: left;
+            background: linear-gradient( #a619f8,#00f2fe);
+            color: #fff;
+            border-radius: 7px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+            text-align: center;
+            height: 150px;
+            width: 200px;
+            padding: 0px;
+            margin-right: 20px;
+            margin-bottom: 30px;
+            margin-right: 11%;
+            text-size-adjust: 2px;
+           
+
+
+        }
+
+        .Mäntorstid { 
+
+            float: left;
+            background: linear-gradient( #a619f8,#00f2fe);
+            color: #fff;
+            border-radius: 7px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+            text-align: center;
+            text-align: start;
+            height: 150px;
+            width: 200px;
+            padding: 0px;
+            margin-right: 20px;
+            margin-bottom: 30px;
+            margin-right: 11%;
+           
+
+        }
+
         table {
             width: 100%;
-            border-collapse: collapse 20px;
+            border-collapse: collapse;
             margin-bottom: 20px;
         }
 
@@ -48,29 +84,30 @@
         td {
             padding-bottom: 8px;
             padding-left: 8px;
-            text-align-last: left 8px;
+            text-align: left;
             border-bottom: 3px solid #000000;
-            border-right: 3px solid #000000
+            border-right: 3px solid #000000;
         }
 
         th {
             background-color: #f2f2f2;
-
         }
 
-        btn-secondary {
-            background-color: bl;
+        .btn-primary {
+
+            background: linear-gradient( #a619f8,#00f2fe);
+            padding: 10px;
+            margin: 5px;
+            color: white;
+            border-radius: 6px;
         }
-
-
-
 
         footer {
             background-color: #000000;
             color: white;
             text-align: center;
             padding: 1em 0;
-            margin: auto;
+            margin: 10px;
         }
     </style>
 </head>
@@ -81,89 +118,150 @@
         <div class="container">
             <h1>Welcomen </h1>
             <h3>Lektion Plenering</h3>
-
         </div>
     </header>
 
     <main>
         <div class="container">
-            <table>
-                <thead>
-                    <tr>
+            <!-- Köşesiz kutu -->
+            <div class="kutu">
+                <!-- JavaScript ile güncellenecek saat ve tarih alanı: -->
+                <div id="Tid - Datum"></div>
+                <!-- Başka bir kutu içinde "Kodlama Yaz" ifadesi: -->
+                <div class="kodlama-kutu">
+                    
+                </div>
 
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td> Måndag </td>
-                        <td> Mentorstid 8:30-9:00 </td>
-                        <td>NO 9:00-10:20</td>
-                        <td>Språkval 10:20-11:30</td>
-                        <td> Lunch 11:30-12:20</td>
-                        <td>Transport Ombyte 12:20-12:40</td>
-                        <td>Idrott Hälsa 12:50-14:30</td>
+            </div>
+
+           
+            <div class="Mäntorstid">
+             <h4>Mäntorstid</h4>
+            <h5><p>-</p></h5> 
+            <h5><p>-</p></h5> 
+            <h5><p>-</p></h5>
+             
+
+            
+               
+            </div>
+
+            <main>
+                <div class="container">
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td> Måndag </td>
+                            <td> Mentorstid 8:30-9:00 </td>
+                            <td>NO 9:00-10:20</td>
+                            <td>Språkval 10:20-11:30</td>
+                            <td> Lunch 11:30-12:20</td>
+                            <td>Transport Ombyte 12:20-12:40</td>
+                            <td>Idrott Hälsa 12:50-14:30</td>
 
 
 
-                    </tr>
-                    <tr>
-                        <td>Tisdag </td>
-                        <td>Bild/Musik 8:00-9:50 </td>
-                        <td>Matematik 10:00-10:50</td>
-                        <td> Svenska 11:00-12:20 </td>
-                        <td>Lunch 12:20-13:20 </td>
-                        <td>SO 13:20-14:30 </td>
-                        <td></td>
-                    </tr>
+                        </tr>
+                        <tr>
+                            <td>Tisdag </td>
+                            <td>Bild/Musik 8:00-9:50 </td>
+                            <td>Matematik 10:00-10:50</td>
+                            <td> Svenska 11:00-12:20 </td>
+                            <td>Lunch 12:20-13:20 </td>
+                            <td>SO 13:20-14:30 </td>
+                            <td></td>
+                        </tr>
 
 
-                    <tr>
-                        <td>Onsdag</td>
-                        <td> So 8:30-9:30</td>
-                        <td>Matemeatik 9:40-10:40</td>
-                        <td>Engelska 10:50-11:50</td>
-                        <td>Lunch 11:50-12:50</td>
-                        <td> Läsa 12:50-13:30</td>
-                        <td> Språkval 13:40-14:50</td>
+                        <tr>
+                            <td>Onsdag</td>
+                            <td> So 8:30-9:30</td>
+                            <td>Matemeatik 9:40-10:40</td>
+                            <td>Engelska 10:50-11:50</td>
+                            <td>Lunch 11:50-12:50</td>
+                            <td> Läsa 12:50-13:30</td>
+                            <td> Språkval 13:40-14:50</td>
 
-                    <tr>
+                        <tr>
 
-                        <td> Torsdag </td>
-                        <td> Svenska 8:30-9:50</td>
-                        <td>Matematik 10:00-11:00</td>
-                        <td>Engelska 11:10-12:00</td>
-                        <td>Lunch 12:00-13:10</td>
-                        <td> No 13:10-14:20</td>
-                        <td> Läxhjälp 14:30-16:00 </td>
+                            <td> Torsdag </td>
+                            <td> Svenska 8:30-9:50</td>
+                            <td>Matematik 10:00-11:00</td>
+                            <td>Engelska 11:10-12:00</td>
+                            <td>Lunch 12:00-13:10</td>
+                            <td> No 13:10-14:20</td>
+                            <td> Läxhjälp 14:30-16:00 </td>
 
-                    </tr>
+                        </tr>
 
-                    <tr>
-                        <td>Fredag</td>
-                        <td> NO 8:30-9-50 </td>
-                        <td>Svenska 10:00-11:00</td>
-                        <td>SO 11:20-12:00</td>
-                        <td>Lunch 12:00-13:00</td>
-                        <td>Hemkunskap/Slöjd 13:00-14:20</td>
-                        <td></td>
-                    </tr>
+                        <tr>
+                            <td>Fredag</td>
+                            <td> NO 8:30-9-50 </td>
+                            <td>Svenska 10:00-11:00</td>
+                            <td>SO 11:20-12:00</td>
+                            <td>Lunch 12:00-13:00</td>
+                            <td>Hemkunskap/Slöjd 13:00-14:20</td>
+                            <td></td>
+                        </tr>
 
-                </tbody>
-            </table>
-            <a href="https://classroom.google.com/" target="_blank" class="btn btn-primary"><i class="fas fa-book"></i>
-                Classroom</a>
-            <a href="https://docs.google.com/spreadsheets/d/1YNXAQF_mGobXkrjHWeJpfN2vgpmmzajeFP-RqC8YIYg/edit?usp=drive_web&authuser=0"
-                target="_blank" class="btn btn-primary"><i class="fas fa-book"></i> Provschema </a>
+                    </tbody>
+                </table>
 
-        </div>
-    </main>
+                <!-- Tablo -->
+                <table>
+                    <!-- Tablo içeriği burada -->
+                </table>
 
-    <footer>
-        <div class="container">
-            &copy; 2023 Hem Sida
+                <!-- Diğer bağlantılar -->
 
-        </div>
-    </footer>
+
+
+
+                <!-- Diğer bağlantılar -->
+                <a href="https://classroom.google.com/" target="_blank" class="btn-primary"><i class="fas fa-book"></i>
+                    Classroom</a>
+                <a href="https://docs.google.com/spreadsheets/d/1YNXAQF_mGobXkrjHWeJpfN2vgpmmzajeFP-RqC8YIYg/edit?usp=drive_web&authuser=0"
+                    target="_blank" class="btn-primary"><i class="fas fa-book"></i> Provschema </a>
+
+
+                <footer>
+                    <div class="container">
+                        &copy; 2023 Hem Sida
+                    </div>
+
+</body>
+
+</html>
+
+<!-- JavaScript ekledik: -->
+<script>
+    function updateClock() {
+        var now = new Date();
+        var saatTarihElementi = document.getElementById('Tid - Datum');
+
+        // Saati ve tarihi güncelle
+        var saat = now.getHours();
+        var dakika = now.getMinutes();
+        var saniye = now.getSeconds();
+        var gun = now.getDate();
+        var ay = now.getMonth() + 1; // JavaScript'te aylar 0'dan başlar
+        var yil = now.getFullYear();
+
+        saatTarihElementi.innerHTML = 'Clocka: ' + saat + ':' + dakika + ':' + saniye + '<br>Datum: ' + gun + '/' + ay + '/' + yil;
+    }
+
+    // Saati belirli aralıklarla güncelle
+    setInterval(updateClock, 1000);
+
+    // Sayfa yüklendiğinde saat ve tarihi bir kez güncelle
+    window.onload = updateClock;
+</script>
 
 </body>
 
